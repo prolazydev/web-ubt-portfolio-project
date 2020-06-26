@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+
+}
+
+body{
+    background: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    position: relative;
+}
+
+/* Navigation */
+.nav {
+    width: 90%;
+    height: 30px;
+    margin: 30px auto;
+    
+}
+/* Top-Left Color BLACK */
+.nav a {
+   color: #000;
+}
+
+/* Top-Left : Flamur Fazliu */
+.nav strong {
+   font-size: 40px;
+   line-height: 55px;
+   float: left;
+   margin: 0px 5px 0 15px;
+   transition: 0.3s ease 0s;
+   background: linear-gradient(to right, #5029ff, #c8248a 50%,  #000 50%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-size: 200% 100%;
+   background-position: 100%;
+}
+/* Hover color change : Flamur Fazliu*/
+.nav strong:hover {
+   background-position: 0 200%;
+}
+/* Top-Left :  Heyy... */
+.follow {
+    display: inline;
+    transition: 0.3s ease 0s;
+}
+
+/* Hover color change : Hey... */
+.nav .hey a:hover{
+  color: chartreuse;
+}
+
+.nav .top-right a{
+  transition: 0.3s ease 0s;
+}
+/* Top-Left : My Insta */
+.nav .hey a {
+    padding-top: 10px;
+    color: #000;
+    transition: 0.3s ease 0s;
+}
+/* Hover color change : My Insta */
+.follow:hover{
+    color: fuchsia;
+}
+
+/* Top-Right */
+.nav .top-right {
+    float: right;
+    transition: all 0.3s ease 0s;
+    padding: 0 5px;
+  }
+.Sitemap {
+  margin-right: 1%;
+}
+
+/* Hover color change : Top Right Menu */
+.nav .top-right a:hover {
+    color: lightcoral;
+    font-size:20px;
+}
+
+/* Navigation Bar */
+.navbar {
+    position: relative;
+    display: flex;
+    background: rgb(227,3,156);
+    background: linear-gradient(90deg, #0404b9 0%, #182025 150%); 
+    text-align: center;
+    border-radius: 25px;
+    height: 50px;
+    margin: 0 5%;
+    justify-content: space-between;
+}
+
+
+/* Navigation Bar Left Side */
+.nav-top-left {
+    margin: auto 1%;
+    font-family: 'Montserrat';
+    color: #fff;
+}
+
+/* Navigation Bar Left Side: Transition */
+#navhome {
+    transition: 0.3s ease 0s;
+}
+/* Navigation Bar Left Side: COLOR Transition */
+#navhome:hover {
+    color: lightseagreen;
+}
+/* Navigation Bar Right Side */
+.navlinks {
+    align-self: center;
+}
+
+.navlinks ul {
+    width: 600px;
+    margin-top: auto;
+}
+/* Navigation Bar Right-Side */
+.navlinks ul li {
+    display: inline;
+    font-size: 30px;
+    margin: 0px 2%; 
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.navlinks ul li a {
+  background: -webkit-linear-gradient(rgb(255, 255, 255), #dae1e7 500%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.3s ease 0s; 
+}
+
+/* Refers to the current Page that the user might currently may be */
+.navlinks ul li .active-class {
+  text-shadow: 0px 5px 20px white; 
+}
+
+.navlinks ul li a.active-class:hover {
+    background: -webkit-linear-gradient(#c060a1, #ffdcb4 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.navlinks ul li a:hover {
+  background: -webkit-linear-gradient(#c060a1, #ffdcb4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ++++++++++++++++++++++++++ ABOUT US ++++++++++++++++++++++++++ */
+
+.top-middle-content-text {
+    padding: 20px;
+}
+
+.card-container-row {
+    margin: 0 auto;
+    align-items: center;
+}
+
+.card-container {
+    
+    height: 450px;
+    width: 300px;
+    padding: 5px 0 0 0;
+    float: left;
+    margin: 0 20px;
+
+    text-align: center;
+    transition: 0.3s ease 0s;
+}
+
+.card-container:hover {
+    -webkit-box-shadow: 5px 10px 25px 1px rgba(0,0,0,0.25); 
+    box-shadow: 5px 10px 25px 1px rgba(0,0,0,0.25);
+
+}
+
+.img-card {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.profile-pic-card {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.job-title {
+    color: #696969;
+    font-family: 'Muli';
+    padding: 5px;
+}
+
+.worker-decsription, .worker-email {
+    padding: 5px;
+}
+
+.worker-email {
+    margin-bottom: 10px;
+}
+
+
+.btn {
+
+    padding: 5px;
+    text-align: center;
+    /* text-transform: uppercase; */
+    background: linear-gradient(90deg, var(--c1, #5029ff), var(--c2, #c8248a) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;
+    color: white;
+    
+    transition: 0.3s ease;
+    border-radius: 10px;
+}
+.btn:hover { --x: 100%; }
+
+/* FOOTER */
+
+.footer-helper {
+    min-height: calc(100vh - 760px);
+}
+
+.footer-wrapper {
+    height: 80px; /*.push must be the same height as .footer */
+    
+}
+
+.footer-box {
+    padding: 0 25px;
+    height: 80px;
+    width: 90%; 
+    border-radius: 25px;
+    display: flex;
+    margin: 0 auto;
+    bottom:0; 
+    clear: both;
+    color: white;
+    background: linear-gradient(270deg, #0404b9 0%, #182025 150%); 
+  }
+  
+.footer-box p, .footer-box a, .footer-box ul, footer-pic-container img {
+    align-self: center;
+    color: #fff;
+}
+  
+.footer-pic {
+    align-self: center;
+    margin: 0 5px;
+    height: 20px;
+    width: 20px;
+    /* -webkit-filter: grayscale(100%); Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: 0.3s ease 0s;
+}
+  
+.footer-pic:hover {
+    /* -webkit-filter: grayscale(0%); Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.3s ease 0s;
+}
+  
+.footer-list {
+    margin-left: auto;
+}
+  
+.footer-box ul li{
+    display: inline;
+    padding: 0 10px;
+  
+}

@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+
+}
+
+body{
+    background: #f4f4f4;
+    font-family: sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    position: relative;
+}
+/* Navigation */
+.nav {
+    width: 90%;
+    height: 30px;
+    margin: 30px auto;
+    
+}
+/* Top-Left Color BLACK */
+.nav a {
+   color: #000;
+}
+
+/* Top-Left : Flamur Fazliu */
+.nav strong {
+   font-size: 40px;
+   line-height: 55px;
+   float: left;
+   margin: 0px 5px 0 15px;
+   transition: 0.3s ease 0s;
+   background: linear-gradient(to right, #5029ff, #c8248a 50%,  #000 50%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-size: 200% 100%;
+   background-position: 100%;
+}
+/* Hover color change : Flamur Fazliu*/
+.nav strong:hover {
+   background-position: 0 200%;
+}
+/* Top-Left :  Heyy... */
+.follow {
+    display: inline;
+    transition: 0.3s ease 0s;
+}
+
+/* Hover color change : Hey... */
+.nav .hey a:hover{
+  color: chartreuse;
+}
+
+.nav .top-right a{
+  transition: 0.3s ease 0s;
+}
+/* Top-Left : My Insta */
+.nav .hey a {
+    padding-top: 10px;
+    color: #000;
+    transition: 0.3s ease 0s;
+}
+/* Hover color change : My Insta */
+.follow:hover{
+    color: fuchsia;
+}
+
+/* Top-Right */
+.nav .top-right {
+    float: right;
+    transition: all 0.3s ease 0s;
+    padding: 0 5px;
+  }
+.Sitemap {
+  margin-right: 1%;
+}
+
+/* Hover color change : Top Right Menu */
+.nav .top-right a:hover {
+    color: lightcoral;
+    font-size:20px;
+}
+
+/* Navigation Bar */
+.navbar {
+    position: relative;
+    display: flex;
+    background: rgb(227,3,156);
+    background: linear-gradient(90deg, #0404b9 0%, #182025 150%); 
+    text-align: center;
+    border-radius: 25px;
+    height: 50px;
+    margin: 0 5%;
+    justify-content: space-between;
+}
+
+
+/* Navigation Bar Left Side */
+.nav-top-left {
+    margin: auto 1%;
+    font-family: 'Montserrat';
+    color: #fff;
+}
+
+/* Navigation Bar Left Side: Transition */
+#navhome {
+    transition: 0.3s ease 0s;
+}
+/* Navigation Bar Left Side: COLOR Transition */
+#navhome:hover {
+    color: lightseagreen;
+}
+/* Navigation Bar Right Side */
+.navlinks {
+    align-self: center;
+}
+
+.navlinks ul {
+    width: 600px;
+    margin-top: auto;
+}
+/* Navigation Bar Right-Side */
+.navlinks ul li {
+    display: inline;
+    font-size: 30px;
+    margin: 0px 2%; 
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.navlinks ul li a {
+  background: -webkit-linear-gradient(rgb(255, 255, 255), #dae1e7 500%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.3s ease 0s; 
+}
+
+/* Refers to the current Page that the user might currently may be */
+.navlinks ul li .active-class {
+  text-shadow: 0px 5px 20px white; 
+}
+
+.navlinks ul li a.active-class:hover {
+    background: -webkit-linear-gradient(#c060a1, #ffdcb4 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.navlinks ul li a:hover {
+  background: -webkit-linear-gradient(#c060a1, #ffdcb4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* Log In FORM */
+
+.top-middle-content-text {
+    padding: 50px;
+}
+
+.form-container {
+    margin: 0 auto;
+}
+
+.form-box {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 0 auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.button-box {
+    width: 200px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 5px 0px #696969 ;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.toggle-btn {
+    padding: 10px 25px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    position: relative;
+    color: #fff;
+    text-shadow:
+    -1px -1px 0 #696969,
+    1px -1px 0 #696969,
+    -1px 1px 0 #696969,
+    1px 1px 0 #696969;
+    font-family: 'Roboto';
+}
+
+#register-btn {
+    /* margin-left: 10px; */
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    
+    background: linear-gradient(to right,  #0404b9 0%, #182025 150%);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.social-ico {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.social-ico img {
+    width: 30px;
+    height: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 5px #696969;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.input-group {
+    top:180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s ease;
+}
+
+.input-field {
+   width: 100%;
+   padding: 10px 0; 
+   margin: 5px 0;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   border-bottom: 1 solid #999;
+   outline: none;
+   background: transparent;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    color: #fff;
+    background: linear-gradient(to right,  #5029ff, #c8248a 100%);
+    background-size: 200% 100%;
+    background-position: 100%;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-position: 0 200%;
+}
+
+.confirmation-wrapper {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.input-check-bock{
+    margin: auto 0;
+}
+
+#remember {
+    margin: auto 0;
+    margin-left: 20px;
+    color: #777;
+    font-size: 15px;
+    position: absolute;
+    align-self: center;
+}
+
+#login {
+    left: 50px;
+}
+
+#register {
+    left: 450px;
+}
+ 

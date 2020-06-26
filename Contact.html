@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style-contact.css">
+    <script defer type="text/javascript" src="js/validate.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+    <!-- Top Nav -->
+    <ul class="nav">
+        <li><a href="#"><strong>Flamur Fazliu</strong></a></li>
+        <li class="hey"><div class="follow">Hey follow me on insta?</div><a href="https://www.instagram.com/muli.official/">@muli.official</a></li>
+        <li class="top-right Sitemap"><a href="#">Sitemap</a></li>
+        <li class="top-right"><a href="log-in.html">Log in</a></li>
+    </ul>
+
+    <!-- Main Nav -->
+    <div class="navbar">
+        <div class="nav-top-left">
+            <h3>You are here : <span id="navhome">About</span></h3>
+        </div>
+        <div class="navlinks">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a class="active-class" href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Contact Us -->
+    <h1 class="top-middle-content-text" style="text-align:center">Contact Us</h1>
+    
+    <div class="form-container">
+        <div class="contact-box">
+            <div class="button-box">
+                <h2 id="contact-here">Contact Here!</h2>
+            </div>
+            <div class="social-ico">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.expectmorearizona.org%2Fwp-content%2Fuploads%2F2016%2F11%2Ffacebook-png-icon-follow-us-facebook-1.png&f=1&nofb=1" alt="Facebook">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn3.iconfinder.com%2Fdata%2Ficons%2Ffree-social-icons%2F67%2Ftwitter_circle_color-512.png&f=1&nofb=1" alt="Twitter">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.foliomag.com%2Fwp-content%2Fuploads%2F2018%2F04%2Fgoogle-logo-icon-png-transparent-background.png&f=1&nofb=1" alt="Google">
+            </div>
+            <!-- Contact Us FORM-->
+            <div id="error-form-message"></div>
+            <form onsubmit="return validateContactForm()" id="contact" class="input-group">
+                <input type="text" id="contactName" class="input-field" name="username" placeholder="Name">
+                <input type="email" id="contactEmail" class="input-field" name="email" placeholder="Email">
+                <input type="text" id="contactTitle" class="input-field" name="title" placeholder="Title">
+                <textarea id="contactMessage" class="form-control" rows="3" cols="50" id="message" 
+                name="message" placeholder="Enter Message..." tabindex="4"></textarea>
+                <button type="submit" class="submit-btn">Send Message!</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

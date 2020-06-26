@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>My Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- <script src="script.js"></script> -->
+    </head>
+    <div> 
+        <!-- Top Nav -->
+        <ul class="nav">
+            <li><a href="#"><strong>Flamur Fazliu</strong></a></li>
+            <li class="hey"><div class="follow">Hey follow me on insta?</div><a href="https://www.instagram.com/muli.official/">@muli.official</a></li>
+            <li class="top-right Sitemap"><a href="#">Sitemap</a></li>
+            <li class="top-right"><a href="log-in.html">Log in</a></li>
+        </ul>
+
+        <!-- Main Nav -->
+        <div class="navbar">
+            <div class="nav-top-left">
+                <h3>You are here : <span id="navhome">Home</span></h3>
+            </div>
+            <div class="navlinks">
+                <ul>
+                    <li><a class="active-class" href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+          <!-- <?php foreach ($dbusers as $user): ?>
+                <div style="background-color: gray; width: 250px; height: 100px; margin-right: 5px; padding: 10px; color: white;">
+                    <p>ID: <?php echo $user['id']; ?></p>
+                    <p><?php echo $user['name']; ?></p>
+                    <p><?php echo $user['email']; ?></p>
+                    <a style="color: white;" href="delete-contact.php?id=<?php echo $user['id']; ?>">Delete Contact</a>  
+                </div> 
+                
+          <?php endforeach; ?>
+
+            <form method="POST">
+                <input type="text" name="emri" placeholder="Enter ur name">
+                <input type="text" name="email" placeholder="Enter ur email">
+                <input type="submit" name="submit">
+            </form>  -->
+    
+        <!-- PHOTO SLIDER 1 -->
+        <div class="featured">
+          <div class="slidershow slider-left-side">
+
+              <div class="slides">
+                <input type="radio" name="r" id="r1" checked>
+                <input type="radio" name="r" id="r2">
+                <input type="radio" name="r" id="r3">
+                <input type="radio" name="r" id="r4">
+                <input type="radio" name="r" id="r5">
+                <!-- Slider IMAGE LINKS -->
+                <div class="slide s1">
+                  <img src="img/1.jpg" alt="">
+                </div>
+                <div class="slide">
+                  <img src="img/2.jpg" alt="z">
+                </div>
+                <div class="slide">
+                  <img src="img/3.jpg" alt="">
+                </div>
+                <div class="slide">
+                  <img src="img/4.jpg" alt="">
+                </div>
+                <div class="slide">
+                  <img src="img/5.jpg" alt="">
+                </div>
+              </div>
+        
+              <div class="slide-navigation">
+                <label for="r1" class="bar"></label>
+                <label for="r2" class="bar"></label>
+                <label for="r3" class="bar"></label>
+                <label for="r4" class="bar"></label>
+                <label for="r5" class="bar"></label>
+              </div>
+            </div>
+
+            <div class="vertical-line-separator"></div>
+
+            <!-- TEXT SLIDE SHOW -->
+            <div class="carousel-wrapper">
+              <span id="item-1"></span>
+              <span id="item-2"></span>
+              <span id="item-3"></span>
+              <div class="carousel-item item-1">
+                <h2>Item 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus   accumsan pretium dolor vel convallis. Aliquam erat volutpat. Maecenas lacus nunc, imperdiet sed mi et, finibus suscipit mi.</p>
+                <a class="arrow arrow-prev" href="#item-3"></a>
+                <a class="arrow arrow-next" href="#item-2"></a>
+              </div>
+              
+              <div class="carousel-item item-2">
+                <h2>Item 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan pretium dolor vel convallis. Aliquam erat volutpat.</p>
+                <a class="arrow arrow-prev" href="#item-1"></a>
+                <a class="arrow arrow-next" href="#item-3"></a>
+              </div>
+              
+              <div class="carousel-item item-3">
+                <h2>Item 3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan pretium dolor vel convallis. Aliquam erat volutpat.</p>
+                <a class="arrow arrow-prev" href="#item-2"></a>
+                <a class="arrow arrow-next" href="#item-1"></a>
+              </div>
+            </div>
+        </div>
+
+        <!-- Following Content -->
+
+        <div class="content">
+          <h1 class="greetings">WELCOME TO MY PORTFOLIO</h1>
+          <div class="fancy-line"></div>
+          <p class="main-content-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Tempore sequi, eum optio dolores deleniti error!</p>
+            <p class="main-content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora pariatur, 
+              quidem suscipit natus reprehenderit temporibus. 
+              Amet quis totam illum dolores?</p>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer-helper"></div>
+        <footer class="footer-box">
+          <!-- Left Side -->
+          <p >Copyright <sup>&copy;</sup> 2020, <a href="#">Flamur Fazliu</a></p>
+          <a class="footer-pic-container" href="https://ubt-uni.net"><img class="footer-pic" src="img/ubt.png" alt="UBT-Link Pic"></a>
+          <a class="footer-pic-container" href="https://www.instagram.com"><img class="footer-pic" src="img/instagram.png" alt="Instagram-Profile-Link Pic"></a>
+          <!-- Right Side -->
+          <ul class="footer-list">  
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </footer>
+        
+    </body>
+</html> 
