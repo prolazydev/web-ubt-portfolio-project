@@ -11,13 +11,11 @@
 
 html, body{
   height: 100%;
-
 }
 
 body{
     background: #f4f4f4;
     font-family: sans-serif;
-
     display: flex;
     flex-direction: column;
     min-height: 100%;
@@ -107,7 +105,6 @@ body{
     justify-content: space-between;
 }
 
-
 /* Navigation Bar Left Side */
 .nav-top-left {
     margin: auto 1%;
@@ -165,7 +162,6 @@ body{
   -webkit-text-fill-color: transparent;
 }
 
-
 /* Log In FORM */
 
 .top-middle-content-text {
@@ -210,6 +206,7 @@ body{
     -1px 1px 0 #696969,
     1px 1px 0 #696969;
     font-family: 'Roboto';
+    outline: none;
 }
 
 #register-btn {
