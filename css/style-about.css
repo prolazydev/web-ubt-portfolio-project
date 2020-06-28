@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Muli:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 * {
     margin: 0;
@@ -84,7 +85,8 @@ body{
     float: right;
     transition: all 0.3s ease 0s;
     padding: 0 5px;
-  }
+}
+
 .Sitemap {
   margin-right: 1%;
 }
@@ -294,8 +296,8 @@ body{
     margin-left: auto;
 }
   
-.footer-box ul li{
+.footer-box ul li {
     display: inline;
     padding: 0 10px;
-  
 }
+
