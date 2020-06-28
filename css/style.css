@@ -554,9 +554,8 @@ min-height: calc(100vh - 959px);
 } @media (max-width: 414px) {
   .nav strong{
     margin: 0 0 0 10px;
-  }.hey {
-    display: none;
-  }.navbar {
+  }.hey {display: none;}
+  .navbar {
     width: 90%;
     margin: 0 auto;
   }.navlinks ul {
@@ -588,5 +587,16 @@ min-height: calc(100vh - 959px);
   width: 90%;
 }.slide-navigation {
   margin: 100px 0;
+} .carousel-item {
+  padding: 15px 25px;
+}.carousel-item h2 {
+  padding: 0 0 10px 0px;
+}
+.slidershow {
+  height: 220px;
+}.featured {
+  height: 400px;
+}.content {
+  margin-bottom: 10px;
 }
 }
