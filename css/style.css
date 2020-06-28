@@ -633,6 +633,6 @@ min-height: calc(100vh - 959px);
 }.content {
   margin-bottom: 10px;
 }.greetings {
-  /* font-size: 45px ; */
+  font-size: 45px ;
 }
 }
