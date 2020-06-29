@@ -605,7 +605,7 @@ min-height: calc(100vh - 959px);
   .navbar {
     width: 90%;
   }.navlinks ul {
-    width: 325px;
+    width: 330px;
   }.top-right {
     margin: 0 5px 0 0;
     align-self: center;
