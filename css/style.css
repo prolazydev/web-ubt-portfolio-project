@@ -473,6 +473,16 @@ min-height: calc(100vh - 959px);
   color: #fff;
 }
 
+.footer-left-side {
+  margin: auto 0;
+  padding-bottom: 5px;
+  display: inline-flex;
+}
+
+.footer-left-side p{
+  padding-right: 5px;
+}
+
 .footer-pic {
   align-self: center;
   margin: 0 5px;
@@ -647,10 +657,8 @@ min-height: calc(100vh - 959px);
   padding-bottom: 5px;
 }
 .footer-pic-container {
-  position: relative;
-  margin-left: auto;
-}
-.pic1, .pic2 {
+
+}.pic1, .pic2 {
   margin: 0;
 }.footer-list, .footer-box ul li{
   padding: 0;
@@ -658,5 +666,12 @@ min-height: calc(100vh - 959px);
 }.footer-box ul {
   width: 50px;
   line-height: 20px;
+}
+.footer-left-side {
+  padding: 0px;
+  display: inline;
+}
+.footer-left-side p{
+  padding-right: 0px;
 }
 }
