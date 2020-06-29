@@ -557,7 +557,6 @@ min-height: calc(100vh - 959px);
   }.hey {display: none;}
   .navbar {
     width: 90%;
-    margin: 0 auto;
   }.navlinks ul {
     width: 370px;
   }.top-right {
@@ -565,7 +564,7 @@ min-height: calc(100vh - 959px);
     align-self: center;
     line-height: 25px;
   }
-  .navlinks, .navlinks ul li{
+  .navlinks ul li{
     font-size: 18px;
   }.featured {
     width: 90%;
@@ -609,6 +608,7 @@ min-height: calc(100vh - 959px);
     font-size: 10px;
   }.navlinks ul li {
     font-size: 15px;
+    font-weight: 600;
   }
   .top-right {
     margin: 0 5px 0 0;
@@ -638,5 +638,25 @@ min-height: calc(100vh - 959px);
   margin-bottom: 10px;
 }.greetings {
   font-size: 45px ;
+  padding: 0 20px;
+}.footer-box p {
+  line-height: 20px;
+  margin: auto 0;
+}.footer-left-side {
+  margin: auto 0;
+  padding-bottom: 5px;
+}
+.footer-pic-container {
+  position: relative;
+  margin-left: auto;
+}
+.pic1, .pic2 {
+  margin: 0;
+}.footer-list, .footer-box ul li{
+  padding: 0;
+  margin: 0;
+}.footer-box ul {
+  width: 50px;
+  line-height: 20px;
 }
 }
