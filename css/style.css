@@ -605,7 +605,7 @@ min-height: calc(100vh - 959px);
   .navbar {
     width: 90%;
   }.navlinks ul {
-    width: 350px;
+    width: 325px;
   }.top-right {
     margin: 0 5px 0 0;
     align-self: center;
@@ -615,8 +615,8 @@ min-height: calc(100vh - 959px);
     height: 350px;
   }.slide-navigation{
     position: absolute;
-    bottom: 43%;
-    right: 15%;
+    bottom: 40%;
+    right: 14%;
     margin-bottom: 50px;
     justify-content: center;
     display: flex;
