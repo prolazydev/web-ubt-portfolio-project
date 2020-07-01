@@ -78,10 +78,12 @@ body{
   transition: 0.3s ease 0s;
 }
 
-.nav .top-right {
+.top-right {
     float: right;
     transition: all 0.3s ease 0s;
     padding: 0 5px;
+    margin: 0 10px 0 0;
+    align-self: center;
   }
 .sitemap {
   margin-right: 1%;
@@ -451,7 +453,8 @@ body, .content .fancy-line:after {
 
 /* FOOTER */
 .footer-helper {
-min-height: calc(100vh - 959px);
+  min-height: calc(100vh - 949px);
+  padding: 10px;
 }
 
 .footer-box {
@@ -478,11 +481,6 @@ min-height: calc(100vh - 959px);
   padding-bottom: 5px;
   display: inline-flex;
 }
-
-.footer-left-side p{
-  padding-right: 5px;
-}
-
 .footer-pic {
   align-self: center;
   margin: 0 5px;
@@ -510,7 +508,7 @@ min-height: calc(100vh - 959px);
   display: inline;
   padding: 0 10px;
 }
-
+/* RESPONSIVE SIDE */
 @media (max-width: 1600px) {
   .arrow-prev {
     left: 0;
@@ -547,46 +545,42 @@ min-height: calc(100vh - 959px);
   }.carousel-item{
     padding: 40px 50px;
     transition: 0.3s ease-in-out 0s;
-  }@media (max-width: 853px) {
-    .nav-top-left{
-      display: none;
-    }.navlinks{
-      margin: 0 auto;
-      transition: ease 0.5s;
-    }
-  }.content {
-    margin: 0px auto;
-  }.greetings {
-    padding: 0;
   }
-} @media (max-width: 777px) {
+@media (max-width: 853px) {
+  .nav-top-left{
+    display: none;
+  }.navlinks{
+    margin: 0 auto;
+    transition: ease 0.5s;
+}}
+@media (max-width: 777px) {
   .featured, .slidershow{ width: 90%; }
-} @media (max-width: 414px) {
-  .nav strong{
+}
+@media (max-width: 414px) {
+.nav strong{
     margin: 0 0 0 10px;
-  }.hey {display: none;}
-  .navbar {
+}.hey {display: none;}
+.navbar {
     width: 90%;
-  }.navlinks ul {
+}.navlinks ul {
     width: 370px;
-  }.top-right {
+}.top-right {
     margin: 0 10px 0 0;
     align-self: center;
     line-height: 25px;
-  }
-  .navlinks ul li{
+}.navlinks ul li{
     font-size: 18px;
-  }.featured {
+}.featured {
     width: 90%;
     height: 350px;
-  }.slide-navigation{
+}.slide-navigation{
     position: absolute;
     bottom: 39%;
     right: 17.5%;
     margin-bottom: 50px;
     justify-content: center;
     display: flex;
- }.bar{
+}.bar{
   width: 50px;
   height: 12px;
   margin: 2px;
@@ -607,7 +601,8 @@ min-height: calc(100vh - 959px);
 }.content {
   margin-bottom: 10px;
 }
-} @media (max-width: 375px) {
+} 
+@media (max-width: 375px) {
   .nav strong{
     margin: 0 0 0 5px;
   }.hey {display: none;}
@@ -656,9 +651,7 @@ min-height: calc(100vh - 959px);
   margin: auto 0;
   padding-bottom: 5px;
 }
-.footer-pic-container {
-
-}.pic1, .pic2 {
+.pic1, .pic2 {
   margin: 0;
 }.footer-list, .footer-box ul li{
   padding: 0;
